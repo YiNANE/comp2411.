@@ -79,10 +79,18 @@ python main.py
 ## Modularization Advantages
 
 1. **Clear Code Organization**: Modules divided by functionality, easy to understand and maintain
-2. **Separation of Concerns**: Each module responsible for specific functionality, follows single responsibility principle
-3. **Easy to Extend**: New features can be added in corresponding modules
-4. **Easy to Test**: Modules can be tested independently
-5. **Code Reusability**: Modules can be reused in other projects
+2. **Comprehensive Database Design**: Complete entity coverage, logical relationship design, data integrity assurance
+3. **Separation of Concerns**: Each module responsible for specific functionality, follows single responsibility principle
+4. **Easy to Extend**: New features can be added in corresponding modules
+5. **Easy to Test**: Modules can be tested independently
+6. **Code Reusability**: Modules can be reused in other projects
+
+## System Limitations and Improvement Suggestions
+
+1. **Security**: Plain text password storage poses security risks, lack of input validation and SQL injection protection; password encryption storage, input validation
+2. **User Interface**: Pure command-line interface with poor user experience, lack of data visualization functions; develop web interface or desktop GUI application, add data charts and statistical visualizations, implement more detailed error descriptions and solution prompts
+3. **Performance Optimization**: Poor performance with large data volume queries; add performance indexes
+4. **System Integration**: No API interfaces for external calls, does not support data import/export
 
 ## Notes
 
