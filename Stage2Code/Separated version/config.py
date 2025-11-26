@@ -7,7 +7,7 @@ Contains database connection configuration information
 DB_CONFIG = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'euoqlwto',  # Password extracted from main function
+    'password': 'Hedao20060629',  # Password extracted from main function
     'db': 'CMMS',
     'port': 3306,
     'charset': 'utf8mb4'
