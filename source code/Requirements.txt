@@ -1,0 +1,20 @@
+Requirement to Use Campus Maintenance and Management System (CMMS)
+
+1. Ensure required dependencies are installed:
+Install MySQL SQL Workbench and ensure have MySQL accounts
+
+and
+
+bash
+pip install pymysql
+
+bash
+pip install mysql-connector-python
+
+2. Modify database configuration information in 'config.py'
+
+3. Run the program:
+bash
+python main.py
+
+and connect to MySQL server
