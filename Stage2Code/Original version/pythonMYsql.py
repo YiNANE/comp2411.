@@ -486,7 +486,7 @@ def main():
     Provides role-based access to system functionalities.
     """
     # Initialize CMMS system
-    cmms = CMMS(password='123456789')  # Replace with your MySQL password
+    cmms = CMMS(password='Hedao20060629')  # Replace with your MySQL password
 
     print("\n===== Campus Maintenance Management System (CMMS) =====")
     while True:
