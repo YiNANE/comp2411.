@@ -3,7 +3,7 @@
 ## Project Structure
 
 ```
-source code/
+Group44Stage2SourceCode/
 ├── main.py                 # Main program entry point
 ├── config.py               # Database configuration
 ├── database.py             # Database connection and table creation
@@ -13,13 +13,12 @@ source code/
 ├── models/                 # Model module
 │   ├── __init__.py
 │   └── cmms.py            # CMMS main class
-├── ui/                     # User interface module
-│   ├── __init__.py
-│   ├── main_ui.py         # Main interface
-│   ├── admin_ui.py        # Admin interface
-│   ├── manager_ui.py      # Manager interface
-│   └── worker_ui.py       # Worker interface
-└── pythonMYsql.py         # Original single-file version (preserved)
+└── ui/                     # User interface module
+    ├── __init__.py
+    ├── main_ui.py         # Main interface
+    ├── admin_ui.py        # Admin interface
+    ├── manager_ui.py      # Manager interface
+    └── worker_ui.py       # Worker interface
 ```
 
 ## Module Description
